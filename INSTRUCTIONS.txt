@@ -1,0 +1,19 @@
+//ABOUT//
+Author: Dimitar Arnaudov
+Email:dimitararnaudov68@gmail.com
+
+
+
+//SPECIAL THANKS //
+Background by Lukas from Pexels https://www.pexels.com/photo/aromatic-board-bread-breakfast-349608/
+
+
+
+//HOW TO START//
+
+To start the project double click on the index.html file and it should open in browser (Google Chrome , Opera , Edge).
+
+If if doesnt , left click on the index.html file and from the menu options select "OPEN WITH" and than select Google Chrome
+or your favourite browser.
+
+!!!WARNING USING INTERNET EXPLORER TO OPEN THE FILE IS NOT RECOMENDED!!!
