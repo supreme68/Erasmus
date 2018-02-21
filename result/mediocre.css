@@ -5,11 +5,11 @@
 }
 
 div {
-    height: 50vh;
+    height: 55vh;
     width: 40%;
     position: fixed;
     left: 35%;
     bottom: 20%;
     background-color: rgba(224, 109, 6, 0.8);
-    font-size: 4vw;
+    font-size: 2vw;
 }

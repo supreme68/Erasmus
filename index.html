@@ -4,144 +4,262 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erasm</title>
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Erasmus+</title>
 
-    <!-- Custom External Files-->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!--Icon-->
+    <link rel="icon" href="images/favicon.ico?" type="image/x-icon">
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+
+    <!--StyleSheet-->
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+
 
 </head>
 <body>
 
-    <header> Healthy Life Style  </header>
+    <header> Testez vos Habitudes Alimentaires  </header>
 
     <!-- Question 1 -->
 
     <div class="question">
-        <p>1. How much times a day you eat veggies and fruits</p>
-        <form name="q1">
-            <input type="radio" name="answer" value="3" /><span>A</span> Every Day<br />
-            <input type="radio" name="answer" value="2" /><span>B</span> 2-3 Times a Week <br />
-            <input type="radio" name="answer" value="1" /><span>C</span> 1-2 Times a Week<br />
-           
+        <p>1. Consommer responsable c’est ?</p>
+        <form id="q1">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span> &nbsp 4-5 fois
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span> &nbsp 3 fois
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="1"> <span>C</span> &nbsp 2-1 fois
+                <span class="checkmark"></span>
+            </label>
+
         </form>
     </div>
     <br />
 
     <!--Question 2 -->
+
     <div class="question">
-        <p>2.How often you eat daily </p>
-        <form name="q2">
-            <input type="radio" name="answer" value="2" /><span>A</span> Five <br />
-            <input type="radio" name="answer" value="3" /><span>B</span> Three<br />
-            <input type="radio" name="answer" value="1" /><span>C</span> Two - One <br />
+        <p>2. À quelle fréquence consommez-vous des fruits  et des légumes ?</p>
+        <form id="q2">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span> &nbsp Tous les jours! Ils font partie de tous mes repas!
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span> &nbsp 1 ou 2 fois par semaine
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="1"> <span>C</span> &nbsp Jamais, je ne les aime pas
+                <span class="checkmark"></span>
+            </label>
+
         </form>
     </div>
     <br />
 
     <!--Question 3-->
+
     <div class="question">
-        <p>3. How often do you eat sweets</p>
-        <form name="q3">
-            <input type="radio" name="answer" value="3" /><span>A</span> Once a week <br />
-            <input type="radio" name="answer" value="2" /><span>B</span> Not more than 4 times a week<br />
-            <input type="radio" name="answer" value="1" /><span>C</span> Daily<br />
+        <p>3. Habituellement, à quelle fréquence inclues - vous du poisson  et des fruits de mer dans votre menu ?</p>
+        <form id="q3">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span>&nbsp  1 ou 2 fois par semaine
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span>&nbsp  1 fois par mois
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="1"> <span>C</span>&nbsp  Moins d’une fois par mois
+                <span class="checkmark"></span>
+            </label>
+
         </form>
     </div>
     <br />
 
     <!--Question 4 -->
 
+
     <div class="question">
-        <p>4. How often you include fish and sea food in your daily menu</p>
-        <form name="q4">
-            <input type="radio" name="answer" value="3" /><span>A</span> Two or three times a week<br />
-            <input type="radio" name="answer" value="2" /><span>B</span> Once a month  <br />
-            <input type="radio" name="answer" value="1" /><span>C</span> I dont<br />
+        <p>4. À quelle fréquence vous permettez-vous  de  manger des gâteaux, du chocolat, des chips ou du pop corn ?</p>
+        <form id="q4">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span> &nbsp  Moins d’une fois par semaine
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span> &nbsp Quand j’en ai envie. 2-3 fois par semaine
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="1"> <span>C</span>  &nbsp Mes préférés! Tous les jours
+                <span class="checkmark"></span>
+            </label>
+
         </form>
     </div>
     <br />
+
     <!-- Question 5 -->
+
     <div class="question">
-        <p>5. How much water you drink daily</p>
-        <form name="q5">
-            <input type="radio" name="answer" value="1" /><span>A</span> Less than a Litre  <br />
-            <input type="radio" name="answer" value="2" /><span>B</span> One Litre<br />
-            <input type="radio" name="answer" value="3" /><span>C</span> Two Litres<br />
+        <p>5. Du lever au coucher du soleil, vous buvez ?</p>
+        <form id="q5">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span> &nbsp Plus de deux litres d’eau
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span> &nbsp Environ un litre d’eau
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="1"> <span>C</span> &nbsp Plutôt des boissons gazeuses, des jus ou du café
+                <span class="checkmark"></span>
+            </label>
 
         </form>
     </div>
     <br />
 
     <!-- Question 6 -->
+
     <div class="question">
-        <p>6. Do you eat breakfast</p>
-        <form name="q6">
-            <input type="radio" name="answer" value="3" /><span>A</span> Every day<br />
-            <input type="radio" name="answer" value="2" /><span>B</span> Not more than 3 times a week<br />
-            <input type="radio" name="answer" value="1" /><span>C</span> I dont eat breakfast<br />
+        <p>6. Prenez-vous du petit - déjeuner ? </p>
+        <form id="q6">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span> &nbsp Tous les jours
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span>  &nbsp Pas plus de 2-3 fois par semaine
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="1"> <span>C</span> &nbsp Très rarement
+                <span class="checkmark"></span>
+            </label>
 
         </form>
     </div>
     <br />
 
     <!-- Question 7 -->
+
     <div class="question">
-        <p>7. How often daily you eat bread</p>
-        <form name="q7">
-            <input type="radio" name="answer" value="1" /><span>A</span> One<br />
-            <input type="radio" name="answer" value="2" /><span>B</span> Two<br />
-            <input type="radio" name="answer" value="3" /><span>C</span> Three<br />
+        <p>7.  À quelle fréquence consommez - vous du pain à la farine complète (de blé, de seigle, d’épeautre...) ?</p>
+        <form id="q7">
+            <label class="container">
+                <input type="radio" name="answer" value="1"> <span>A</span> &nbsp Jamais ou moins d’une fois par semaine
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span> &nbsp Une fois par jour
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="3"> <span>C</span> &nbsp Plusieurs fois par jour
+                <span class="checkmark"></span>
+            </label>
+
         </form>
     </div>
     <br />
     <!-- Question 8 -->
 
+
     <div class="question">
-        <p>8. I consume daily the following dairy products</p>
-        <form name="q8">
-            <input type="radio" name="answer" value="1" /><span>A</span> Cream with the coffee <br />
-            <input type="radio" name="answer" value="2" /><span>B</span> Milk and yogurt<br />
-            <input type="radio" name="answer" value="3" /><span>C</span> Cheese , Milk and yogurt<br />
+        <p>8. Combien de portions de lait, de fromage ou d’yaourt consommez - vous chaque jour ?</p>
+        <form id="q8">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span> &nbsp Deux ou plus par jour
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span>  &nbsp Un
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="1"> <span>C</span>&nbsp Aucun
+                <span class="checkmark"></span>
+            </label>
 
         </form>
     </div>
     <br />
-
     <!-- Question 9 -->
+
     <div class="question">
-        <p>9. What do you eat regularly for lunch </p>
-        <form name="q9">
-            <input type="radio" name="answer" value="1" /><span>A</span> Meat<br />
-            <input type="radio" name="answer" value="2" /><span>B</span> Potatos , rice , vegetables , and salad<br />
-            <input type="radio" name="answer" value="3" /><span>C</span> Basic diary products<br />
+        <p>9.  Le midi en semaine, vous mangez plutôt ?</p>
+        <form id="q9">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span> &nbsp Une salade composée légère et un yaourt
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span> &nbsp Un steak avec des pommes de terre ou du riz
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="1"> <span>C</span>&nbsp Un sandwich crudité poulet Mayo avec un coca et une part de tarte
+                <span class="checkmark"></span>
+            </label>
 
         </form>
     </div>
     <br />
 
     <!-- Question 10 -->
+
     <div class="question">
-        <p>10. How often you drink alcohol </p>
-        <form name="q10">
-            <input type="radio" name="answer" value="1" /><span>A</span> I DONT DRINK<br />
-            <input type="radio" name="answer" value="2" /><span>B</span> 2-3 Times a week<br />
-            <input type="radio" name="answer" value="3" /><span>C</span> Every day<br />
+        <p>10.  Quelle est la part de nourriture jetée au niveau mondial ?</p>
+        <form id="q10">
+            <label class="container">
+                <input type="radio" name="answer" value="3"> <span>A</span>&nbsp 1/5
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="answer" value="2">  <span>B</span>&nbsp   1/4
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+
+                <input type="radio" name="answer" value="1"> <span>C</span>&nbsp 1/3
+                <span class="checkmark"></span>
+            </label>
 
         </form>
     </div>
     <br />
 
-
     <!--BUTTONS-->
-    <button class="btn btn-dark btn-lg" onclick="CollectForms()">Show Result </button>
-   
+    <button class="btn btn-dark btn-lg" onclick="CollectForms()"><strong>Montrer Un Résultat</strong></button>
+
+
+    <!--JavaScript-->
+    
+    <script src="Jquery/jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
+    <script scr="Bootstrap/js/bootstrap.js"></script>
+
+
 </body>
 </html>

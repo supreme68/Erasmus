@@ -6,13 +6,13 @@
 }
 
 div {
-   height: 50vh;
+   height: 64vh;
    width: 40%;
    position:fixed;
    left:35%;
    bottom:20%;
    background-color: rgba(229, 89, 52, 0.8);
-   font-size:3vw;
+   font-size:2vw;
 }
 
 
